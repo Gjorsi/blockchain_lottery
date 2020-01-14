@@ -1,6 +1,7 @@
 pragma solidity ^0.5.3;
 
 contract Lotto {
+  uint a = 100000000000000000; //1 eth in wei units
   uint contributors = 0;
   address payable[2] private users;
 

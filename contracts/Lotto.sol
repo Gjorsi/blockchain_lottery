@@ -17,7 +17,7 @@ contract Lotto {
   }
 
   function drawWinner() private {
-    uint random = uint(blockhash(block.number-1))%2;
+    uint random = uint(blockhash(block.number-1))%2; //not really a random number
 
     users[random].transfer(address(this).balance);
 

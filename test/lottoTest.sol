@@ -15,9 +15,4 @@ contract lottoTest {
     Assert.equal(active, false, "Bet should be inactive (false)");
     Assert.equal(bet_amount, expected_amount, "Bet amount should be 0");
   }
-
-  /* function testBet() public {
-    Lotto lotto = new Lotto();
-    lotto.send
-  } */
 }
